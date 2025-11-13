@@ -6,6 +6,7 @@
 #body{
     font-family: sans-serif;
     color: #fff;
+   
 }
 /**PAGINA PRINCIPAL**/
 .fondo-chocolate {
@@ -80,11 +81,12 @@ body.contenedor {
     top:0;
     left:0;
     width:100%;
-    z-index:100;  
+    z-index:1000;  
     text-align: center;
 }
 .contenido-general main {
     margin-top: 60px;
+    padding-top: 20px;
 }
 .come-chocolate img{
     display: flex;
@@ -230,6 +232,7 @@ grid-template-columns: 1fr 2fr 1fr;
 }
 .formato-videos h2{
     text-align: center;
+    margin-top: 20px;
     padding: 20px;
 }
 .video-responsive iframe {
